@@ -1,0 +1,62 @@
+section{
+    padding: 80px 13%;
+}
+.home{
+    position:relative;
+    height: 80vh;
+    width: 100%;
+    background-image: url(../../assets/educat.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    
+
+}
+.home-text h1{
+    
+    margin: 15px 0 15px ;
+}
+.home-text h6{
+    
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.home-text p{
+ 
+
+    font-size: 500;
+    margin-bottom: 48px;
+
+}
+.letter form{
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+}
+.o{
+    display: inline-block;
+    width: 30%;
+    outline: none;
+    padding: 20;
+    border-radius: 30px;
+    border: 2px solid;
+    margin-left: 180px;
+   
+
+}
+.m{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 16px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    top: 2px;
+    right:1px;
+   
+}

@@ -1,0 +1,189 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 7%;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+toggle-icon {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+.toggle-icon {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.search-box input{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+
+}
+.search-box input::placeholder{
+    color: #fff;
+}
+.search-box img{
+    width: 20px;
+    cursor: pointer;
+}
+/*footer*/
+.footer {
+    background: rgba(226, 248, 248, 0.664);
+    
+    
+  }
+  
+  .follows span a {
+    text-decoration: none;
+  }
+  
+  .follows span {
+    margin-right: 500px;
+    
+  }
+  
+  .link__list .link__item {
+    background: transparent;
+  }
+  
+  .link__list a {
+    text-decoration: none;
+    color: #0a2b1e;
+    font-weight: 100;
+   
+   }
+ /*header*/
+   .header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 1.3rem;
+  }
+  
+  .nav__item a {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #0a2b1e;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .nav__item a:hover {
+    color: #17bf9e;
+  }
+  
+  .nav__right p {
+    font-weight: 500;
+    color: #0a2b1e;
+    font-size: 1.1rem;
+  }
+  
+  .nav__right p i {
+    font-size: 1.3rem;
+  }
+  
+  .mobile__menu span i {
+    font-size: 1.4rem;
+    color: #0a2b1e;
+    cursor: pointer;
+  }
+  
+  .mobile__menu {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .nav__menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #0a2b1ec2;
+      z-index: 99;
+      display: none;
+    }
+  
+    .nav__list {
+      position: absolute;
+      background: #fff;
+      top: 0;
+      right: 0;
+      width: 250px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 999;
+      padding-top: 80px;
+    }
+  
+    .mobile__menu {
+      display: block;
+    }
+    .nav__right {
+      display: none;
+    }
+  
+    .active__menu {
+      display: block;
+    }
+  }
+  
+  
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
